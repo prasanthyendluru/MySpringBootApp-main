@@ -8,7 +8,7 @@ pipeline {
     environment {
         DOCKER_IMAGE       = "prasanthyendluru/simple-hello-prasanth"
         DOCKER_CREDENTIALS = "docker-prasanth"
-        AWS_CREDS          = "aws-eks-creds"
+        AWS_CREDS          = "aws-eks"
         AWS_REGION         = "eu-west-2"
         EKS_CLUSTER        = "team4-eks-cluster"  // Replace with your cluster name
         KUBE_NAMESPACE     = "team4-prasanth-namespace"
