@@ -6,8 +6,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE       = "
-prasanthyendluru/simple-hello-prasanth"
+        DOCKER_IMAGE       = "prasanthyendluru/simple-hello-prasanth"
         DOCKER_CREDENTIALS = "docker-prasanth"
         AWS_CREDS          = "aws-eks-creds"
         AWS_REGION         = "eu-west-2"
