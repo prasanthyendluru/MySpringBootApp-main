@@ -10,7 +10,7 @@ pipeline {
         DOCKER_CREDENTIALS = "docker-prasanth"
         AWS_CREDS          = "aws-cred"
         AWS_REGION         = "eu-west-2"
-        EKS_CLUSTER        = "team4-eks-cluster"  // Replace with your cluster name
+        EKS_CLUSTER        = "devops-nation-cluster"  // Replace with your cluster name
         KUBE_NAMESPACE     = "prasanth-namespace"
     }
 
